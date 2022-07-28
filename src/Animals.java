@@ -5,10 +5,7 @@ public class Animals {
     private Bear [] bears;
     private Bird [] birds;
 
-    public Animals(Swimmable[] birds) {
-    }
-
-    public Animals(Fish[] fish, Bear[] bears, Bird[] birds) {
+     public Animals(Fish[] fish, Bear[] bears, Bird[] birds) {
         this.fish = fish;
         this.bears = bears;
         this.birds = birds;
